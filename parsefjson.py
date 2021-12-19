@@ -1,7 +1,5 @@
 import ast
 import json
-# line = str({'abc':'008565','name':'xyz','description':'can control TV\'s and more'})
-# print(json.dumps(ast.literal_eval(line)))
         
 with open('C:/Users/Papa Ba GAYE/Desktop/flights.json', mode="r") as f:
     lines = f.readlines()
